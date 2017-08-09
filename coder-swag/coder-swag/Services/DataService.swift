@@ -73,7 +73,7 @@ class DataService {
         return shirts
     }
     
-    func getDigitalGoods -> [Product] {
+    func getDigitalGoods() -> [Product] {
         return digitalGoods
     }
     
