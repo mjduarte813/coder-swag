@@ -16,7 +16,6 @@ class CategoryCell: UITableViewCell {
     
     func updateViews(category: Category) {
         //Everytime we want to call the cells on the screen, this function will update the views
-        
         categoryImage.image = UIImage(named: category.imageName)
         categoryTitle.text = category.title
     }
